@@ -1,0 +1,11 @@
+Create a new model:
+>> open_system(new_system)
+
+To create a new port with a specific bus element:
+>> add_block('simulink/Sources/In Bus Element',[bdroot '/InBEP1'],'PortName','X','Element','a')
+
+To add more bus elements to the same port, refer to an existing port and specify a new element:
+>> add_block([bdroot '/InBEP1'],[bdroot '/InBEP2'],'Element','b')
+
+To add a new port:
+>> add_block('simulink/Sources/In Bus Element',[bdroot '/InBEP3'],'PortName','Y','Element','j')

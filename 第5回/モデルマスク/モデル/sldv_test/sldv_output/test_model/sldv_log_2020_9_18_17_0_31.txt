@@ -1,0 +1,93 @@
+
+18-Sep-2020 17:00:17
+18-Sep-2020 16:59:20 からキャッシュされたモデル表現の検証中...完了
+
+18-Sep-2020 17:00:18
+'test_model_replacement' は Simulink Design Verifier と互換 テスト生成用です。
+
+
+18-Sep-2020 16:59:20 のモデル表現を使用してテストを生成しています...
+
+達成
+Saturation
+入力 >= 上限 false
+解析時間 = 00:00:05
+
+達成
+Model/Model/Switch
+論理トリガー入力 false (第 3 入力端子からの出力)
+解析時間 = 00:00:05
+
+達成
+Model/Model/Relational Operator
+RelationalOperator: 入力 1 >= 入力 2 true
+解析時間 = 00:00:05
+
+達成
+Saturation
+入力 >= 上限 true
+解析時間 = 00:00:05
+
+達成
+Saturation1
+入力 > 下限 true
+解析時間 = 00:00:05
+
+達成
+Saturation
+入力 > 下限 true
+解析時間 = 00:00:05
+
+達成
+Saturation1
+入力 >= 上限 true
+解析時間 = 00:00:05
+
+達成
+Model/Model/Relational Operator
+RelationalOperator: 入力 1 >= 入力 2 false
+解析時間 = 00:00:05
+
+達成
+Saturation1
+入力 >= 上限 false
+解析時間 = 00:00:05
+
+達成
+Saturation
+入力 > 下限 false
+解析時間 = 00:00:05
+
+達成
+Model/Model/Switch
+論理トリガー入力 true (第 1 入力端子からの出力)
+解析時間 = 00:00:05
+
+達成
+Saturation1
+入力 > 下限 false
+解析時間 = 00:00:05
+
+達成
+Model1/Model1/Switch
+論理トリガー入力 false (第 3 入力端子からの出力)
+解析時間 = 00:00:05
+
+達成
+Model1/Model1/Relational Operator
+RelationalOperator: 入力 1 >= 入力 2 false
+解析時間 = 00:00:05
+
+
+18-Sep-2020 17:00:31
+
+正常に完了しました。
+
+出力ファイルを生成しています:
+
+18-Sep-2020 17:00:31
+検証結果の生成が完了しました。
+
+    データ ファイル:
+    C:\Users\1014721\Documents\MATLAB\model_mask\sldv_test\sldv_output\test_model\test_model_sldvdata.mat
+
